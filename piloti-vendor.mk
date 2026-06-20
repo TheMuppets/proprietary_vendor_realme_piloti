@@ -13,6 +13,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/piloti/proprietary/odm/etc/PanelChaplin/P_3_AE035_dsc_cmd_mode_panel_2_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AE035_dsc_cmd_mode_panel_2_2nit.odf \
     vendor/realme/piloti/proprietary/odm/etc/PanelChaplin/P_3_AE035_dsc_cmd_mode_panel_2_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AE035_dsc_cmd_mode_panel_2_max.odf \
     vendor/realme/piloti/proprietary/odm/etc/PanelChaplin/P_3_AE035_dsc_cmd_mode_panel_HS:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AE035_dsc_cmd_mode_panel_HS \
+    vendor/realme/piloti/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/realme/piloti/proprietary/odm/etc/camera/AIAEVideoModel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAEVideoModel.bin \
     vendor/realme/piloti/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
     vendor/realme/piloti/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
