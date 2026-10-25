@@ -716,6 +716,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/piloti/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/realme/piloti/proprietary/odm/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/dvs-aidl-service.rc \
     vendor/realme/piloti/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
+    vendor/realme/piloti/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/realme/piloti/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/realme/piloti/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/realme/piloti/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
@@ -1626,10 +1627,12 @@ PRODUCT_PACKAGES += \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
+    manifest_touch_aidl.xml \
     vendor.oplus.camera.aon-impl.xml \
     vintf_manifext_aidl_panelchaplin.xml \
     vendor.qti.camera.provider-service_64 \
     dvs-aidl-service \
+    vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.cammidasservice-V1-service
 
 PRODUCT_COPY_FILES += \
